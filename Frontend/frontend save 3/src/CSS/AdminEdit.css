@@ -1,0 +1,49 @@
+/* AdminEdit.css */
+
+.registration-form {
+  max-width: 800px;
+  margin: 100px auto;   /* Add margin to the top */
+  background: linear-gradient(
+    90deg,
+    rgba(99, 57, 57, 0.8) 0%,
+    rgba(0, 128, 0, 0.8) 100%
+  );
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 10 10 10px rgba(0, 0, 0, 0.2);
+}
+
+.registration-form h2 {
+  color: #fff;
+}
+
+.registration-form label {
+  color: #fff;
+}
+
+.registration-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.registration-form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.registration-form p {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* Additional responsive styles can be added as needed */

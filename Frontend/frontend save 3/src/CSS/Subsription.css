@@ -1,0 +1,83 @@
+.discount-card:hover .price::before {
+    content: "₹ 3,500"; /* Display discounted price on hover */
+    color: red; /* Optionally, style the discounted price differently */
+  }
+  
+
+  .discount-card .discounted-price {
+    display: none; /* Initially hide discounted price */
+    color: red;
+  }
+  
+  .discount-card:hover .original-price {
+    display: none; /* Hide original price on hover */
+  }
+  
+  .discount-card:hover .discounted-price {
+    display: block; /* Show discounted price on hover */
+    
+  }
+
+ 
+
+
+
+
+ /* Add a zoom effect and light color shade on hover */
+.discount-card {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.discount-card:hover {
+  transform: scale(1.05); /* Increase the size by 5% on hover */
+  /* box-shadow: 0 0 20px rgba(198, 24, 24, 0.1); Light color shade */
+  background-color: #b1b1b1;
+}
+
+/* Additional styling for the price */
+.discount-card .price {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.discount-card .original-price {
+  text-decoration: line-through;
+  color: #888;
+  display: inline-block;
+}
+
+.discount-card .discounted-price {
+  color: #e44d26; /* Set the color for the discounted price */
+}
+
+
+
+
+
+
+
+
+
+/* Add to Cart button styling with automatic color change */
+.discount-card button.add-to-cart-button {
+  background-color: rgb(34, 38, 165); /* Initial color */
+  color: rgb(7, 5, 5);
+  border: none;
+  padding: 15px 30px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  animation: changeColor 2s infinite alternate; /* Animation to change color */
+}
+
+@keyframes changeColor {
+  0% { background-color: rgb(124, 246, 193); } /* Initial color */
+  100% { background-color: rgb(255, 240, 162); } /* Final color */
+}
+
+
+
+
+
+  

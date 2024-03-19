@@ -1,0 +1,106 @@
+/* Navbar.css */
+.nav-link {
+    margin: 0 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: lightgray;
+}
+
+.search-bar {
+    /* cursor: auto; */
+    position: relative;
+}
+
+.search-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+  transform: translateY(-50%);
+    color: rgb(1, 0, 0);
+    cursor: pointer;
+}
+
+.search-input {
+    width: 300px;
+    font-weight: bold;
+    padding-right: 30px;
+}
+
+.cart-link {
+    margin: 0 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+
+.cart-link:hover {
+    color: lightgray;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.search-bar:hover .search-input {
+    color: lightgray; /* Adjust the color as needed */
+}
+.search-bar:hover .search-icon {
+    color: lightgray; /* Adjust the color as needed */
+}
+
+.brand-effect {
+    animation: changeColor 3s infinite alternate;
+  }
+  
+  @keyframes changeColor {
+    0% {
+      color: rgb(255, 0, 0); /* Red */
+    }
+    25% {
+      color: rgb(0, 255, 0); /* Green */
+    }
+    50% {
+      color: rgb(0, 0, 255); /* Blue */
+    }
+    75% {
+      color: rgb(255, 255, 0); /* Yellow */
+    }
+    100% {
+      color: rgb(255, 0, 255); /* Magenta */
+    }
+  }
+
+  .navbar-custom {
+    background-color: rgb(175, 22, 22); /* Light Gray */
+  }
+  
+  .navbar-custom .navbar-brand {
+    color: rgb(0, 0, 0); /* Black */
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navbar-custom .navbar-brand:hover {
+    color: rgb(105, 105, 105); /* Dark Gray */
+  }
+
+
+  .fancy-font {
+    font-family: 'Dancing Script', cursive;
+    /* Add more font styles or text-transform if needed */
+  }
+
+
+  /* styles.css */
+
+.dropdown-item:hover {
+  background-color: #007bff; /* Change the background color on hover */
+  color: #ad2828; /* Change the text color on hover */
+  border: black 2px solid;
+}

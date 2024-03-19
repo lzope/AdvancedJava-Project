@@ -1,0 +1,138 @@
+/* styles.css */
+
+.featurette {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.featurette .featurette-heading {
+  font-size: 40px;
+}
+
+.featurette p {
+  font-size: 18px;
+}
+
+.featurette-image {
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.featurette:nth-child(odd) .col-md-7 {
+  order: 2;
+}
+
+.featurette:nth-child(odd) .col-md-5 {
+  order: 1;
+}
+
+.featurette:nth-child(even) .col-md-7 {
+  order: 1;
+}
+
+.featurette:nth-child(even) .col-md-5 {
+  order: 2;
+}
+
+
+
+
+
+
+.supporter-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 800px; /* Adjust the maximum width as needed */
+  margin: 0 auto;
+}
+
+.supporter {
+  flex-basis: 23%; /* Set the width of each supporter to approximately 23% */
+  margin-bottom: 15px; /* Add margin between supporters */
+  text-align: center;
+}
+
+.grey-background {
+  background-color: #f0f0f0; /* Adjust the background color for grey-background supporters */
+}
+
+
+ 
+
+.Key {
+  font-size: 36px; /* Adjust the font size as needed */
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add a subtle text shadow for better visibility */
+  animation: colorChange 5s infinite; /* 5s duration, infinite loop */
+}
+
+@keyframes colorChange {
+  0% { color: rgb(110, 152, 206); }
+  25% { color: rgb(206, 110, 152); }
+  50% { color: rgb(152, 206, 110); }
+  75% { color: rgb(110, 152, 206); }
+  100% { color: rgb(206, 110, 152); }
+} 
+
+
+.header-quote-container {
+background: linear-gradient(to right, rgba(255, 0, 0, 0.5), rgba(0, 255, 0, 0.5), rgba(0, 0, 255, 0.5)); /* Adjust RGB and alpha values as needed */
+padding: 20px;
+margin: 20px 0;
+text-align: center;
+}
+
+.header-quote {
+display: inline-block;
+border: 2px solid rgba(255, 255, 255, 0.7); /* Border color with alpha for contrast */
+padding: 20px;
+border-radius: 10px;
+}
+
+.quote-text {
+font-size: 32px;
+color: #000; /* Text color */
+font-weight: bold;
+}
+
+#C:hover{
+  transform: scale(1.05); /* Increase the size by 5% on hover */
+  transition: transform 0.3s ease-in-out; /* Smooth transition */
+  background-color:#b1b1b1;
+}
+#CPP:hover{
+  transform: scale(1.05); /* Increase the size by 5% on hover */
+  transition: transform 0.3s ease-in-out; /* Smooth transition */
+  background-color:#b1b1b1;
+}
+#Java:hover{
+  transform: scale(1.05); /* Increase the size by 5% on hover */
+  transition: transform 0.3s ease-in-out; /* Smooth transition */
+  background-color:#b1b1b1;
+}
+#Asp:hover{
+  transform: scale(1.05); /* Increase the size by 5% on hover */
+  transition: transform 0.3s ease-in-out; /* Smooth transition */
+  background-color:#b1b1b1;
+}
+#MySql:hover{
+  transform: scale(1.05); /* Increase the size by 5% on hover */
+  transition: transform 0.3s ease-in-out; /* Smooth transition */
+  background-color:#b1b1b1;
+}
+#HTML:hover{
+  transform: scale(1.05); /* Increase the size by 5% on hover */
+  transition: transform 0.3s ease-in-out; /* Smooth transition */
+  background-color:#b1b1b1;
+}
+
+
+.discount-card .original-price {
+  text-decoration: line-through;
+  color: #888;
+  display: inline-block;
+}
+
+
+

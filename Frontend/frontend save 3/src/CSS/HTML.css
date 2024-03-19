@@ -1,0 +1,22 @@
+/* Html.css */
+/* 
+body {
+    background-image:linear-gradient(#8fcdeb, #e8f8c2);
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-size: 100% 100%;/* Set your desired background color */
+    /* margin: 0; /* Remove default body margin */
+    /*padding: 0; Remove default body padding */
+  /* } */
+   */
+  .container {
+    max-width: 1200px; /* Set your desired max width */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  #boom
+  {
+    background-color: rgb(72, 73, 73);
+    color: white;
+  }
+  
+  /* Add any additional styles as needed for your components */

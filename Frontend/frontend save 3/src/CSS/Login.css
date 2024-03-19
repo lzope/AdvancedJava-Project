@@ -1,0 +1,17 @@
+.container-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* This ensures the container takes up the full height of the viewport */
+  background-color: rgba(0, 0, 0, 0); /* Fully transparent background */
+}
+
+
+.form-container-login {
+  background-color: rgba(0, 0, 0, 0); /* Fully transparent background */
+
+  width: 400px; /* Adjust the width as needed */
+}
+.back{
+  background-color: #64b8ed;
+}
